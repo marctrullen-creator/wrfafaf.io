@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="es" data-examples="on" data-lights="on">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>UMBRA Atelier · Taller de lujo para deportivos en Vila-real</title>
+<meta name="description" content="Taller de lujo en Vila-real (Castelló): llantas forjadas de tres piezas, frenos carbocerámicos, acabados, detailing, mecánica de altas prestaciones y personalización. Reserva una visita privada.">
+<meta name="theme-color" content="#050505">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23050505'/%3E%3Ccircle cx='32' cy='32' r='22' fill='%23EDEDEF'/%3E%3Ccircle cx='37' cy='28.5' r='21' fill='%23050505'/%3E%3Ccircle cx='32' cy='32' r='26.5' fill='none' stroke='%23EDEDEF' stroke-width='1.5'/%3E%3C/svg%3E">
+<!-- Dirección publicada en GitHub Pages: si cambia el dominio, cambia og:url y og:image -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="UMBRA Atelier · Taller de lujo en Vila-real">
+<meta property="og:description" content="Llantas, frenos, acabados y mecánica para deportivos. Visita privada con luz de estudio.">
+<meta property="og:image" content="https://marctrullen-creator.github.io/Umbra-atelier.io/og.jpg">
+<meta property="og:url" content="https://marctrullen-creator.github.io/Umbra-atelier.io/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" href="syne-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="syne-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="portada-rueda.webp" as="image" media="(min-width: 721px)">
+<link rel="stylesheet" href="site.css">
+<script type="importmap">{"imports":{"three":"./three.module.min.js"}}</script>
+<script>document.documentElement.classList.add('js');try{var L=localStorage.getItem('umbra-lights');if(L==='off')document.documentElement.dataset.lights='off'}catch(e){}
+setTimeout(function(){if(!window.UMBRA_READY){var h=document.documentElement;h.classList.add('no-pre');h.classList.remove('js');if(document.body)document.body.classList.remove('is-loading')}},3500);</script>
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="skip">Saltar al contenido</a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-caret-left" viewBox="0 0 256 256"><path d="M165.66,202.34a8,8,0,0,1-11.32,11.32l-80-80a8,8,0,0,1,0-11.32l80-80a8,8,0,0,1,11.32,11.32L91.31,128Z"/></symbol>
+  <symbol id="i-caret-right" viewBox="0 0 256 256"><path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z"/></symbol>
+  <symbol id="i-arrow-right" viewBox="0 0 256 256"><path d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"/></symbol>
+  <symbol id="i-arrow-up-right" viewBox="0 0 256 256"><path d="M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z"/></symbol>
+  <symbol id="i-play" viewBox="0 0 256 256"><path d="M232.4,114.49,88.32,26.35a16,16,0,0,0-16.2-.3A15.86,15.86,0,0,0,64,39.87V216.13A15.94,15.94,0,0,0,80,232a16.07,16.07,0,0,0,8.36-2.35L232.4,141.51a15.81,15.81,0,0,0,0-27ZM80,215.94V40l143.83,88Z"/></symbol>
+  <symbol id="i-pause" viewBox="0 0 256 256"><path d="M200,32H160a16,16,0,0,0-16,16V208a16,16,0,0,0,16,16h40a16,16,0,0,0,16-16V48A16,16,0,0,0,200,32Zm0,176H160V48h40ZM96,32H56A16,16,0,0,0,40,48V208a16,16,0,0,0,16,16H96a16,16,0,0,0,16-16V48A16,16,0,0,0,96,32Zm0,176H56V48H96Z"/></symbol>
+  <symbol id="i-envelope-simple" viewBox="0 0 256 256"><path d="M224,48H32a8,8,0,0,0-8,8V192a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A8,8,0,0,0,224,48ZM203.43,64,128,133.15,52.57,64ZM216,192H40V74.19l82.59,75.71a8,8,0,0,0,10.82,0L216,74.19V192Z"/></symbol>
+  <symbol id="i-whatsapp-logo" viewBox="0 0 256 256"><path d="M187.58,144.84l-32-16a8,8,0,0,0-8,.5l-14.69,9.8a40.55,40.55,0,0,1-16-16l9.8-14.69a8,8,0,0,0,.5-8l-16-32A8,8,0,0,0,104,64a40,40,0,0,0-40,40,88.1,88.1,0,0,0,88,88,40,40,0,0,0,40-40A8,8,0,0,0,187.58,144.84ZM152,176a72.08,72.08,0,0,1-72-72A24,24,0,0,1,99.29,80.46l11.48,23L101,118a8,8,0,0,0-.73,7.51,56.47,56.47,0,0,0,30.15,30.15A8,8,0,0,0,138,155l14.61-9.74,23,11.48A24,24,0,0,1,152,176ZM128,24A104,104,0,0,0,36.18,176.88L24.83,210.93a16,16,0,0,0,20.24,20.24l34.05-11.35A104,104,0,1,0,128,24Zm0,192a87.87,87.87,0,0,1-44.06-11.81,8,8,0,0,0-6.54-.67L40,216,52.47,178.6a8,8,0,0,0-.66-6.54A88,88,0,1,1,128,216Z"/></symbol>
+</svg>
+
+<div class="preload" id="preload" aria-hidden="true">
+  <p class="preload__count"><span id="preload-n">00.000</span>&nbsp;%<small data-i18n="preload">Luz absorbida</small></p>
+  <div class="preload__half preload__half--t"></div>
+  <div class="preload__half preload__half--b"></div>
+  <div class="preload__line"></div>
+</div>
+<div class="grid-lines" aria-hidden="true"></div>
+<div class="grain" aria-hidden="true"></div>
+<div class="cursor" id="cursor" aria-hidden="true"><div class="cursor__ring"></div><span class="cursor__xy" id="cursor-xy">X 0000 · Y 0000</span></div>
+
+<header class="bar" id="bar">
+  <a class="brand" href="#inicio" aria-label="UMBRA Atelier, inicio">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="11" fill="#EDEDEF"/><circle cx="18.6" cy="14.2" r="10.6" fill="#050505"/><circle cx="16" cy="16" r="14.5" fill="none" stroke="#EDEDEF" stroke-width="1"/></svg>
+    <span><span class="brand__word">UMBRA</span><span class="brand__sub">ATELIER · VILA-REAL</span></span>
+  </a>
+  <nav class="nav" id="nav" aria-label="Principal">
+    <a href="#pelicula" data-i18n="nav.film">Película</a>
+    <a href="#anatomia" data-i18n="nav.anat">Anatomía</a>
+    <a href="#acabados" data-i18n="nav.finish">Acabados</a>
+    <a href="#servicios" data-i18n="nav.menu">Servicios</a>
+    <a href="#visita" data-i18n="nav.visit">Visita privada</a>
+  </nav>
+  <button class="lights" id="lights" type="button" role="switch" aria-checked="true">
+    <span class="lights__label" data-i18n="lights">Luces de estudio</span>
+    <span class="lights__track" aria-hidden="true"><span class="lights__dot"></span></span>
+    <span class="lights__state" id="lights-state">ON</span>
+  </button>
+  <div class="lang" role="group" aria-label="Idioma">
+    <button type="button" data-lang="es" aria-pressed="true" lang="es">ES</button>
+    <button type="button" data-lang="va" aria-pressed="false" lang="ca">VA</button>
+    <button type="button" data-lang="en" aria-pressed="false" lang="en">EN</button>
+  </div>
+  <a class="btn btn--solid btn--sm bar__cta" href="#visita" data-i18n="cta.book">Reservar visita</a>
+  <button class="menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="nav"><span></span><span></span><b class="vh" data-i18n="menu">Menú</b></button>
+</header>
+
+<section class="hero" id="inicio" aria-labelledby="hero-h">
+  <div class="hero__stage" id="stage" aria-hidden="true">
+    <div class="hero__grp hero__bg" data-depth="6">
+      <picture><source media="(max-width: 720px)" srcset="portada-movil-estudio.webp"><img class="hero__img hero__img--dark" src="portada-estudio.webp" alt="" width="2400" height="1350" fetchpriority="high" decoding="async"></picture>
+      <div class="beam"><div class="beam__in"><picture><source media="(max-width: 720px)" srcset="portada-movil-estudio.webp"><img class="hero__img" src="portada-estudio.webp" alt="" width="2400" height="1350" decoding="async"></picture></div></div>
+    </div>
+    <div class="hero__grp hero__type" data-depth="14"><p class="hero__title">UMBRA</p></div>
+    <div class="hero__grp hero__wheel" data-depth="-10">
+      <picture><source media="(max-width: 720px)" srcset="portada-movil-rueda.webp"><img class="hero__img hero__img--dark" src="portada-rueda.webp" alt="" width="2400" height="1350" fetchpriority="high" decoding="async"></picture>
+      <div class="beam"><div class="beam__in"><picture><source media="(max-width: 720px)" srcset="portada-movil-rueda.webp"><img class="hero__img" src="portada-rueda.webp" alt="" width="2400" height="1350" decoding="async"></picture></div></div>
+    </div>
+    <div class="hero__shade"></div>
+    <div class="hero__eclipse"></div>
+  </div>
+  <p class="hero__meta hero__meta--tl"><span data-i18n="meta.wheel">Rueda de 21″ · tres piezas</span><span data-i18n="meta.bolts">Corona de 40 tornillos</span></p>
+  <p class="hero__meta hero__meta--tr"><span>39°56′ N · 0°06′ W</span><span data-i18n="meta.place">Vila-real · Castelló</span></p>
+  <p class="hero__meta hero__meta--br"><span data-i18n="meta.disc">Disco carbocerámico 392 mm</span><span id="light-xy">LUZ X 0000 · Y 0000</span></p>
+  <div class="hero__copy">
+    <h1 id="hero-h" data-i18n="hero.h">Taller de lujo para deportivos en Vila-real</h1>
+    <p data-i18n="hero.p">Llantas forjadas, frenos carbocerámicos, acabados y mecánica de altas prestaciones. Cada coche se revisa bajo luz de estudio, en una visita privada contigo delante.</p>
+    <div class="hero__ctas">
+      <a class="btn btn--solid" href="#visita"><span data-i18n="cta.private">Reservar visita privada</span><svg class="ico" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+      <a class="btn btn--ghost" href="#pelicula"><svg class="ico" aria-hidden="true"><use href="#i-play"/></svg><span data-i18n="cta.film">Ver la película, 12 s</span></a>
+    </div>
+    <a class="hero__cue mono" href="#pelicula" aria-hidden="true" tabindex="-1"><i></i><span data-i18n="cue">Baja para apagar el estudio</span></a>
+  </div>
+</section>
+
+<main id="main" tabindex="-1">
+
+<section class="sec film" id="pelicula" aria-labelledby="film-h">
+  <div class="sec__head reveal">
+    <p class="idx"><b>[01 // ABSORCIÓN]</b><br><span data-i18n="film.idx">La película</span></p>
+    <h2 id="film-h" data-i18n="film.h">Doce segundos de taller</h2>
+    <p class="lede" data-i18n="film.lede">La rueda tal y como la vemos nosotros: primero en sombra, luego pieza a pieza, y al final terminada. Se reproduce sola; puedes pararla o saltar de capítulo.</p>
+  </div>
+  <div class="film__frame reveal" id="film-frame">
+    <img class="film__poster" src="capitulo-04.webp" alt="La rueda UMBRA terminada, de pie sobre el suelo de hormigón del estudio" width="1280" height="720" loading="lazy" decoding="async" data-i18n-alt="film.alt">
+    <video id="film-video" muted playsinline preload="none" disablepictureinpicture aria-describedby="film-caption"></video>
+    <div class="film__black"></div>
+    <div class="film__end">
+      <p data-i18n="film.end">¿La tuya es la siguiente?</p>
+      <a class="btn btn--solid" href="#visita"><span data-i18n="cta.private">Reservar visita privada</span><svg class="ico" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+    </div>
+    <button class="film__play" type="button" id="film-play"><span><svg class="ico" aria-hidden="true"><use href="#i-play"/></svg><b data-i18n="film.play">Reproducir la película</b></span></button>
+  </div>
+  <div class="film__ui reveal">
+    <div class="film__ctrl">
+      <button type="button" id="film-prev" aria-label="Capítulo anterior" data-i18n-aria="film.prev"><svg class="ico" aria-hidden="true"><use href="#i-caret-left"/></svg></button>
+      <button type="button" id="film-pause" aria-label="Pausar la película" data-i18n-aria="film.pause"><svg class="ico" aria-hidden="true"><use href="#i-pause"/></svg></button>
+      <button type="button" id="film-next" aria-label="Capítulo siguiente" data-i18n-aria="film.next"><svg class="ico" aria-hidden="true"><use href="#i-caret-right"/></svg></button>
+    </div>
+    <ol class="chapters" id="chapters">
+      <li class="chapter" aria-current="step"><button type="button" data-ch="0"><span class="chapter__fill"></span><span class="chapter__n">01</span><span class="chapter__t" data-i18n="ch.0">Absorción</span></button></li>
+      <li class="chapter"><button type="button" data-ch="1"><span class="chapter__fill"></span><span class="chapter__n">02</span><span class="chapter__t" data-i18n="ch.1">La forja</span></button></li>
+      <li class="chapter"><button type="button" data-ch="2"><span class="chapter__fill"></span><span class="chapter__n">03</span><span class="chapter__t" data-i18n="ch.2">Anatomía</span></button></li>
+      <li class="chapter"><button type="button" data-ch="3"><span class="chapter__fill"></span><span class="chapter__n">04</span><span class="chapter__t" data-i18n="ch.3">Entrega</span></button></li>
+    </ol>
+    <p class="film__count"><b id="film-count">01</b>&nbsp;/ 04</p>
+  </div>
+  <div class="film__captions">
+    <p class="film__caption" id="film-caption" aria-live="polite"><span data-i18n="cap.0">El estudio a oscuras. Una tira de luz encuentra el labio pulido y la rueda aparece.</span></p>
+    <p class="film__note mono" data-i18n="film.note">Render 3D propio · 12 s · 24 fps</p>
+  </div>
+</section>
+
+<section class="creed" aria-label="Nuestra forma de trabajar" data-i18n-aria="creed.aria">
+  <p id="creed" data-i18n="creed">La luz de estudio no perdona un arañazo. Por eso trabajamos con ella encendida.</p>
+  <span class="creed__by mono" data-i18n="creed.by">UMBRA Atelier · Vila-real</span>
+</section>
+
+<section class="sec anat" id="anatomia" aria-labelledby="anat-h">
+  <div class="sec__head reveal">
+    <p class="idx"><b>[02 // ANATOMÍA]</b><br><span data-i18n="anat.idx">Pieza a pieza</span></p>
+    <h2 id="anat-h" data-i18n="anat.h">Seis piezas, un solo oficio</h2>
+    <p class="lede" data-i18n="anat.lede">Toca una marca para ver qué es cada pieza y qué le hacemos en el taller. Mantén pulsado el botón para abrir la rueda como en la película.</p>
+  </div>
+  <div class="anat__grid reveal">
+    <div class="viewer" id="viewer">
+      <img class="viewer__still" src="rueda.webp" alt="Rueda UMBRA de tres piezas con pinza roja y disco perforado" width="1200" height="1200" loading="lazy" decoding="async" data-i18n-alt="anat.alt">
+      <p class="viewer__load mono"><i></i><span data-i18n="anat.loading">Cargando la rueda en 3D</span></p>
+      <p class="viewer__axes mono"><span data-i18n="anat.drag">Arrastra para girar</span><br><span id="viewer-deg">ROT 000° · INC 00°</span></p>
+      <div id="hotspots"></div>
+      <div class="hold">
+        <button class="hold__btn" id="hold" type="button"><i></i><span data-i18n="anat.hold">Mantén pulsado para abrir la rueda</span></button>
+        <span class="hold__hint mono" data-i18n="anat.hint">Suelta antes y vuelve a cerrarse</span>
+      </div>
+    </div>
+    <aside class="panel" id="panel" aria-live="polite">
+      <p class="panel__code mono" id="p-code">A · LABIO</p>
+      <h3 class="panel__name" id="p-name">Labio pulido</h3>
+      <p class="panel__what" id="p-what"></p>
+      <div class="panel__do"><b class="mono" data-i18n="anat.do">Qué hacemos</b><p id="p-do"></p></div>
+      <p class="mono" style="margin:24px 0 0;color:var(--ink-3)" data-i18n="anat.checks">Lo que comprobamos</p>
+      <ul class="tele" id="p-tele"></ul>
+      <div class="panel__go"><a class="btn btn--ghost" href="#visita" id="p-go"><span data-i18n="anat.go">Pedir este trabajo</span><svg class="ico" aria-hidden="true"><use href="#i-arrow-right"/></svg></a></div>
+    </aside>
+    <ul class="parts" id="parts"></ul>
+  </div>
+</section>
+
+<section class="sec finish" id="acabados" aria-labelledby="fin-h">
+  <div class="sec__head reveal">
+    <p class="idx"><b>[03 // REFLEJO]</b><br><span data-i18n="fin.idx">Acabados</span></p>
+    <h2 id="fin-h" data-i18n="fin.h">Tres maneras de devolver la luz</h2>
+    <p class="lede" data-i18n="fin.lede">El mismo centro forjado, el mismo estudio y la misma luz. Arrastra el control: cuanto menos refleja, más desaparece la forma.</p>
+  </div>
+  <div class="finish__grid">
+    <div class="cmp reveal" id="cmp">
+      <img src="acabado-pulido.webp" alt="" width="1200" height="1200" loading="lazy" decoding="async">
+      <img src="acabado-cepillado.webp" alt="" width="1200" height="1200" loading="lazy" decoding="async" style="--o:0" data-k="1">
+      <img src="acabado-negro.webp" alt="" width="1200" height="1200" loading="lazy" decoding="async" style="--o:0" data-k="2">
+      <span class="cmp__tag mono" id="cmp-tag">CENTRO · PULIDO ESPEJO</span>
+    </div>
+    <div class="finish__side reveal">
+      <div class="read" aria-live="polite">
+        <p class="read__name" id="fin-name">Pulido espejo</p>
+        <p class="read__num"><b id="fin-num">≈ 85 %</b><span data-i18n="fin.unit">de la luz devuelta</span></p>
+        <p class="read__desc" id="fin-desc"></p>
+      </div>
+      <div class="slider">
+        <label class="vh" for="fin-range" data-i18n="fin.label">Acabado del centro, de pulido espejo a negro mate profundo</label>
+        <input type="range" id="fin-range" min="0" max="200" step="1" value="0">
+        <div class="slider__ticks">
+          <button type="button" data-stop="0" aria-pressed="true" data-i18n="fin.t0">Pulido</button>
+          <button type="button" data-stop="100" aria-pressed="false" data-i18n="fin.t1">Cepillado</button>
+          <button type="button" data-stop="200" aria-pressed="false" data-i18n="fin.t2">Negro</button>
+        </div>
+      </div>
+      <p class="finish__foot" data-i18n="fin.foot">Valores aproximados de reflectancia total. El negro más oscuro que se fabrica, Vantablack, devuelve el 0,035 % de la luz y no se usa en llantas de calle; nuestro negro mate profundo se queda cerca del 4 %.</p>
+      <a class="btn btn--dark" href="#visita" data-service="pe1" id="fin-go"><span data-i18n="fin.go">Pedir este acabado</span><svg class="ico" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<section class="sec menu" id="servicios" aria-labelledby="menu-h">
+  <div class="sec__head reveal">
+    <p class="idx"><b>[04 // CARTA DEL TALLER]</b><br><span data-i18n="menu.idx">Servicios</span></p>
+    <h2 id="menu-h" data-i18n="menu.h">Lo que hacemos, con plazo y precio</h2>
+    <p class="lede" data-i18n="menu.lede">Cuatro oficios bajo el mismo techo. Toca una fila y la visita se pide con ese trabajo ya elegido.</p>
+  </div>
+  <table class="table reveal">
+    <caption class="vh" data-i18n="menu.caption">Servicios de UMBRA Atelier con plazo y precio orientativo</caption>
+    <thead><tr><th scope="col" data-i18n="th.ref">Ref.</th><th scope="col" data-i18n="th.svc">Servicio</th><th scope="col" data-i18n="th.inc">Qué incluye</th><th scope="col" class="r" data-i18n="th.time">Plazo</th><th scope="col" class="r" data-i18n="th.price">Desde</th></tr></thead>
+    <tbody id="menu-body">
+      <tr data-service="ll1"><td class="t-ref">LL 01</td><td><span class="t-cat" data-i18n="cat.ll">Llantas y frenos</span><span class="t-name"><button type="button" data-i18n="s.ll1">Restauración de llanta de tres piezas</button></span></td><td class="t-inc" data-i18n="i.ll1">Desmontaje, reparación de bordillazos, pulido o cepillado, juntas y tornillería nuevas, montaje y equilibrado.</td><td class="t-time"><span class="eg" data-i18n="d.ll1">10 días</span></td><td class="t-price"><span class="eg" data-i18n="p.ll1">380 € / llanta</span></td></tr>
+      <tr data-service="ll2"><td class="t-ref">LL 02</td><td><span class="t-cat" data-i18n="cat.ll">Llantas y frenos</span><span class="t-name"><button type="button" data-i18n="s.ll2">Frenos carbocerámicos</button></span></td><td class="t-inc" data-i18n="i.ll2">Medición del disco en ocho puntos, pastillas, purgado con líquido nuevo y prueba en carretera.</td><td class="t-time"><span class="eg" data-i18n="d.ll2">1 día</span></td><td class="t-price"><span class="eg" data-i18n="p.ll2">290 € sin piezas</span></td></tr>
+      <tr data-service="ac1"><td class="t-ref">AC 01</td><td><span class="t-cat" data-i18n="cat.ac">Acabados y detailing</span><span class="t-name"><button type="button" data-i18n="s.ac1">Corrección de pintura y cerámico</button></span></td><td class="t-inc" data-i18n="i.ac1">Lavado de descontaminación, corrección en dos o tres pasos y tratamiento cerámico.</td><td class="t-time"><span class="eg" data-i18n="d.ac1">4 días</span></td><td class="t-price"><span class="eg">1.190 €</span></td></tr>
+      <tr data-service="ac2"><td class="t-ref">AC 02</td><td><span class="t-cat" data-i18n="cat.ac">Acabados y detailing</span><span class="t-name"><button type="button" data-i18n="s.ac2">Film de protección y mates</button></span></td><td class="t-inc" data-i18n="i.ac2">Film transparente en el frontal o en todo el coche, y cuidado específico de pinturas mates y satinadas.</td><td class="t-time"><span class="eg" data-i18n="d.ac2">3 a 6 días</span></td><td class="t-price"><span class="eg">1.870 €</span></td></tr>
+      <tr data-service="me1"><td class="t-ref">ME 01</td><td><span class="t-cat" data-i18n="cat.me">Mecánica de altas prestaciones</span><span class="t-name"><button type="button" data-i18n="s.me1">Mantenimiento de deportivos</button></span></td><td class="t-inc" data-i18n="i.me1">Aceite y filtros según el fabricante, revisión de 60 puntos e informe con fotos de lo que hemos visto.</td><td class="t-time"><span class="eg" data-i18n="d.me1">1 día</span></td><td class="t-price"><span class="eg">445 €</span></td></tr>
+      <tr data-service="me2"><td class="t-ref">ME 02</td><td><span class="t-cat" data-i18n="cat.me">Mecánica de altas prestaciones</span><span class="t-name"><button type="button" data-i18n="s.me2">Diagnosis y puesta a punto</button></span></td><td class="t-inc" data-i18n="i.me2">Lectura completa con equipo de diagnosis, registro de datos en carretera y ajuste de lo que haga falta.</td><td class="t-time"><span class="eg" data-i18n="d.me2">1 a 2 días</span></td><td class="t-price"><span class="eg">175 €</span></td></tr>
+      <tr data-service="pe1"><td class="t-ref">PE 01</td><td><span class="t-cat" data-i18n="cat.pe">Personalización</span><span class="t-name"><button type="button" data-i18n="s.pe1">Llantas, pinzas y tapas a medida</button></span></td><td class="t-inc" data-i18n="i.pe1">Acabado del centro a elegir, pinzas pintadas en tu color y tapas grabadas con tu inicial o tu escudo.</td><td class="t-time"><span class="eg" data-i18n="d.pe1">2 a 8 semanas</span></td><td class="t-price" data-i18n="p.quote">Presupuesto</td></tr>
+      <tr data-service="pe2"><td class="t-ref">PE 02</td><td><span class="t-cat" data-i18n="cat.pe">Personalización</span><span class="t-name"><button type="button" data-i18n="s.pe2">Vinilo y detalles de interior</button></span></td><td class="t-inc" data-i18n="i.pe2">Cambio de color en vinilo, piezas de carbono y grabados en el interior.</td><td class="t-time"><span class="eg" data-i18n="d.pe2">1 a 2 semanas</span></td><td class="t-price" data-i18n="p.quote">Presupuesto</td></tr>
+    </tbody>
+  </table>
+  <p class="table__note mono"><span data-i18n="menu.note">Precios de ejemplo, orientativos y sin IVA. El presupuesto real te lo damos por escrito después de la visita.</span><span data-i18n="menu.legend">Subrayado punteado: dato de ejemplo</span></p>
+</section>
+
+<section class="sec visit" id="visita" aria-labelledby="visit-h">
+  <div class="sec__head reveal">
+    <p class="idx"><b>[05 // VISITA PRIVADA]</b><br><span data-i18n="visit.idx">Reserva</span></p>
+    <h2 id="visit-h" data-i18n="visit.h">Reserva una visita privada</h2>
+    <p class="lede" data-i18n="visit.lede">Ven con el coche, lo miramos juntos bajo luz de estudio y te vas con un presupuesto cerrado.</p>
+  </div>
+  <div class="visit__grid">
+    <div class="visit__side">
+      <ol class="steps reveal-stagger" id="steps">
+        <li><b>01</b><p><strong data-i18n="st.1t">Eliges día y hora</strong><span data-i18n="st.1d">Con este formulario o por WhatsApp. Te contestamos para confirmar la hora.</span></p></li>
+        <li><b>02</b><p><strong data-i18n="st.2t">Lo vemos juntos</strong><span data-i18n="st.2d">En el box, con luz de estudio, para que veas lo mismo que vemos nosotros.</span></p></li>
+        <li><b>03</b><p><strong data-i18n="st.3t">Presupuesto cerrado</strong><span data-i18n-html="st.3d">Por escrito, con plazo y precio. Si dices que sí, empezamos; si no, <span class="eg">no pagas nada</span>.</span></p></li>
+      </ol>
+      <p class="contact">
+        <span class="eg">Camí de la Mar, 00</span> · 12540 Vila-real<br>
+        <a href="tel:+34964000000"><span class="eg">964 000 000</span></a><br>
+        <a href="mailto:visitas@umbra-atelier.es"><span class="eg">visitas@umbra-atelier.es</span></a><br>
+        <span class="eg" data-i18n="hours">Lunes a viernes, de 9:00 a 19:00</span>
+      </p>
+    </div>
+    <form class="form reveal" id="booking" novalidate>
+      <div class="field"><label for="f-name" data-i18n="f.name">Nombre</label><input id="f-name" name="nombre" autocomplete="name" required><span class="field__err" id="e-name"></span></div>
+      <div class="field"><label for="f-phone" data-i18n="f.phone">Teléfono</label><input id="f-phone" name="telefono" type="tel" autocomplete="tel" inputmode="tel" required><span class="field__err" id="e-phone"></span></div>
+      <div class="field"><label for="f-email"><span data-i18n="f.email">Email</span> <small data-i18n="f.opt">(opcional)</small></label><input id="f-email" name="email" type="email" autocomplete="email"><span class="field__err" id="e-email"></span></div>
+      <div class="field"><label for="f-car" data-i18n="f.car">Coche (marca y modelo)</label><input id="f-car" name="coche" required><span class="field__err" id="e-car"></span></div>
+      <div class="field"><label for="f-service" data-i18n="f.service">Trabajo</label>
+        <select id="f-service" name="trabajo" required>
+          <option value="" data-i18n="f.choose">Elige un trabajo</option>
+          <option value="ll1" data-i18n="s.ll1">Restauración de llanta de tres piezas</option>
+          <option value="ll2" data-i18n="s.ll2">Frenos carbocerámicos</option>
+          <option value="ac1" data-i18n="s.ac1">Corrección de pintura y cerámico</option>
+          <option value="ac2" data-i18n="s.ac2">Film de protección y mates</option>
+          <option value="me1" data-i18n="s.me1">Mantenimiento de deportivos</option>
+          <option value="me2" data-i18n="s.me2">Diagnosis y puesta a punto</option>
+          <option value="pe1" data-i18n="s.pe1">Llantas, pinzas y tapas a medida</option>
+          <option value="pe2" data-i18n="s.pe2">Vinilo y detalles de interior</option>
+          <option value="otro" data-i18n="f.other">Otro, o todavía no lo sé</option>
+        </select><span class="field__err" id="e-service"></span></div>
+      <div class="field"><label for="f-date"><span data-i18n="f.date">Día que prefieres</span> <small data-i18n="f.opt">(opcional)</small></label><input id="f-date" name="dia" type="date"><span class="field__err" id="e-date"></span></div>
+      <div class="field field--full"><label for="f-msg"><span data-i18n="f.msg">Cuéntanos algo más</span> <small data-i18n="f.opt">(opcional)</small></label><textarea id="f-msg" name="mensaje" rows="3"></textarea><span class="field__err"></span></div>
+      <label class="check" id="c-privacy"><input type="checkbox" id="f-privacy" required><span data-i18n-html="f.privacy">He leído la <a href="aviso-legal.html#privacidad">política de privacidad</a> y acepto que uséis mis datos solo para responder a esta solicitud.</span></label>
+      <div class="form__actions">
+        <button class="btn btn--solid" type="submit"><svg class="ico" aria-hidden="true"><use href="#i-envelope-simple"/></svg><span data-i18n="f.send">Preparar mi solicitud por email</span></button>
+        <button class="btn btn--ghost" type="button" id="f-wa"><svg class="ico" aria-hidden="true"><use href="#i-whatsapp-logo"/></svg><span data-i18n="f.wa">Enviar por WhatsApp</span></button>
+      </div>
+      <p class="form__note" data-i18n="f.note">Al enviar se abre tu correo o WhatsApp con la solicitud ya escrita, y tú decides si la mandas. Esta web no guarda tus datos.</p>
+      <div class="form__ok" id="form-ok" role="status" tabindex="-1"><b data-i18n="ok.t">Solicitud preparada</b><span data-i18n-html="ok.d">Revisa la ventana que se ha abierto y pulsa enviar. Si no se ha abierto nada, escríbenos a <span class="eg">visitas@umbra-atelier.es</span>.</span></div>
+    </form>
+    <div class="faq reveal">
+      <h3 class="idx" data-i18n="faq.h">Antes de venir</h3>
+      <dl>
+        <div><dt data-i18n="q1">¿Trabajáis con cualquier marca?</dt><dd data-i18n="a1">Con deportivos y gama alta de cualquier marca. Si un trabajo necesita herramienta oficial del fabricante, te lo decimos en la visita.</dd></div>
+        <div><dt data-i18n="q2">¿La visita tiene coste?</dt><dd data-i18n-html="a2"><span class="eg">No. Es sin compromiso y dura unos 45 minutos.</span></dd></div>
+        <div><dt data-i18n="q3">¿Puedo traer mis propias piezas?</dt><dd data-i18n="a3">Sí. Las revisamos antes de montarlas y te avisamos si algo no nos convence.</dd></div>
+        <div><dt data-i18n="q4">¿Cuánto se tarda en restaurar una llanta de tres piezas?</dt><dd data-i18n-html="a4"><span class="eg">Unos diez días laborables por juego</span>, porque cada pieza se trata por separado.</dd></div>
+        <div><dt data-i18n="q5">¿Qué garantía dais?</dt><dd data-i18n-html="a5"><span class="eg">Doce meses en mano de obra</span>, por escrito en la factura.</dd></div>
+        <div><dt data-i18n="q6">¿Puedo ver el trabajo mientras lo hacéis?</dt><dd data-i18n="a6">Sí. Te mandamos fotos de cada paso y puedes pasar a verlo con cita.</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot" id="contacto">
+  <p class="foot__big" id="foot-big" aria-hidden="true"><span>Más allá</span><span>del negro</span></p>
+  <div class="foot__row">
+    <div class="foot__cta"><span class="magnet" id="magnet"><a class="btn btn--solid" href="#visita"><span data-i18n="cta.request">Solicitar visita privada</span><svg class="ico" aria-hidden="true"><use href="#i-arrow-up-right"/></svg></a></span></div>
+    <div class="foot__col"><b data-i18n="ft.shop">Taller</b><span class="eg">Camí de la Mar, 00</span><br>12540 Vila-real<br>Castelló</div>
+    <div class="foot__col"><b data-i18n="ft.hours">Horario</b><span class="eg" data-i18n="hours.short">L a V · 9:00 a 19:00</span><br><span data-i18n="ft.sat">Sábados con cita</span></div>
+    <div class="foot__col"><b data-i18n="ft.contact">Contacto</b><a href="tel:+34964000000"><span class="eg">964 000 000</span></a><br><a href="mailto:visitas@umbra-atelier.es"><span class="eg">visitas@umbra-atelier.es</span></a></div>
+    <div class="foot__col"><b>Legal</b><a href="aviso-legal.html" data-i18n="ft.legal">Aviso legal</a><br><a href="aviso-legal.html#privacidad" data-i18n="ft.privacy">Privacidad</a><br><a href="aviso-legal.html#cookies" data-i18n="ft.cookies">Cookies</a></div>
+  </div>
+  <div class="foot__legal mono"><span>© 2026 UMBRA Atelier</span><span data-i18n="ft.eg">Subrayado punteado: dato de ejemplo</span><span data-i18n="ft.render">Imágenes y película: render 3D propio</span></div>
+</footer>
+
+<script src="i18n.js" defer></script>
+<script src="site.js" defer></script>
+</body>
+</html>
